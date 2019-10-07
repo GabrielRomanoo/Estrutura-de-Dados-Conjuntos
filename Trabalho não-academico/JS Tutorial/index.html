@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+  <head>
+    <meta charset="utf-8">
+    <title>JS boa</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+  </head>
+  <body>
+    <!-- <p id='p1'>Player 1: </p> -->
+    <h1><strong>Number guessing game</strong></h1>
+    <p>We have selected a random number between 1 and 1000. See if you can guess it in 10 turns or fewer. 
+    We'll tell you if your guess was too high or too low.</p>
+    <div class='Form'>
+      <label for="guessField">Enter a guess: </label>
+      <input type="text" id='guessField' class='guessField'>
+      <input type="submit" value='Submit guess' class='guessSubmit'>
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class='lowOrHi'></p>
+    </div>
+    <script src='scripts/script.js' async></script>
+  </body>
+</html>
